@@ -1,0 +1,24 @@
+Ahmed Jamal
+F00534171
+
+1. How long did you spend on this assignment?
+
+Approx 3 Hours
+
+2. Based on your effort, what letter grade would you say you earned?
+
+Grade A
+
+
+3. Based on your solution, what letter grade would you say you earned?
+
+Grade A
+
+4. Provide a summary of what doesn't work in your solution, along with an explanation of how you attempted to solve the problem and where you feel you struggled.
+
+To Solve the problem of Longest common substring,
+First store the max length of LCS, then store the ending index of LCS.
+Initialize all cells of the lookup table to 0.
+Fill the lookup table in a bottom-up manner.
+If the current character of X and Y matches Update the max length 
+and ending index. Return LCS having max length.
